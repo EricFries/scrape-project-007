@@ -35,7 +35,7 @@ def create_student_hash(student_links)
 
     students_array << {:name => name, :education => edu, :bio => bio, :work => work}
 end
-puts students_array
+puts students_array.inspect
 end
 
 create_student_hash(student_links)
